@@ -1,0 +1,50 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80%;
+  letter-spacing: 0.15em;
+  background-color: #efefef;
+}
+#large {
+  border: 5px double black;
+  min-width: 720px;
+  max-width: 940px;
+  background-color: white;
+  margin: 10px auto 10px auto;
+  height: 400px;
+}
+
+.point > li {
+  list-style-type: none;
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+}
+ul {
+  width: 570px;
+  padding: 15px;
+  margin: 1px auto 1px auto;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+
+  /* word-spacing: 50px; */
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.piano {
+  margin-bottom: 20px;
+}
+.word {
+  text-align: center;
+  width: 600px;
+  margin: 10px auto 10px auto;
+  word-spacing: 1px;
+}
+#all {
+  text-align: center;
+  width: 570px;
+  padding-top: 1px;
+  margin: 5px auto 5px auto;
+}
